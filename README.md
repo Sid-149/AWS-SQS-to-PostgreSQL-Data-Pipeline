@@ -1,6 +1,6 @@
 # AWS SQS to PostgreSQL Data Pipeline
 
-This project demonstrates a small application that reads JSON data containing user login behavior from an AWS SQS Queue, masks sensitive information, and then writes the transformed data into a PostgreSQL database. It makes use of Python, Boto3 for AWS interactions, psycopg2 for PostgreSQL connections, and Docker for running the necessary components locally.
+This project demonstrates a small application that reads JSON data containing user login behavior from an [AWS SQS Queue](https://aws.amazon.com/sqs/), masks sensitive information, and then writes the transformed data into a PostgreSQL database. It makes use of Python, Boto3 for AWS interactions, psycopg2 for PostgreSQL connections, and Docker for running the necessary components locally.
 
 ## Project Setup
 To run this project, you'll need the following prerequisites:  
