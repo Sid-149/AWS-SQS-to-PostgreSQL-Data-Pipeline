@@ -146,7 +146,7 @@ def alter_app_version_data_type():
         password = 'postgres'
     )
 
-    #Creating a cursor to execute SQL queris
+    #Creating a cursor to execute SQL queries
     cur = conn.cursor()
 
     #SQL Query to alter the data type of app_version to varchar (as int data type can't handle values like 8.9.2, 9.3.1, etc.)
@@ -184,7 +184,7 @@ def insert_postgres(flatten_data):
         password = 'postgres'
     )
 
-    #Creating a cursor to execute SQL queris
+    #Creating a cursor to execute SQL queries
     cur = conn.cursor()
 
     #Preparing the data for insertion in user_logins table
@@ -225,7 +225,7 @@ def print_user_logins_table():
         password = 'postgres'
     )
 
-    #Creating a cursor to execute SQL queris
+    #Creating a cursor to execute SQL queries
     cur = conn.cursor()
 
     #SQL query to retrieve all rows from user_logins table
